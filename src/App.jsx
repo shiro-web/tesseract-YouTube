@@ -36,7 +36,6 @@ function App() {
       <input type="submit" value="読み取る"/>
     </form>
     {text ? (<p>結果: <span className={classes.bold}>{text.replace(/\s/g,"")}</span></p>) :(<p>画像を選択してください。</p>)}
-
   </div>
   );
 }
